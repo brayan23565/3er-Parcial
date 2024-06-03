@@ -5,14 +5,14 @@ int main() {
 
     cout << "Ingrese la cantidad de unidades: ";
     cin >> unidades;
-    cout << "Cantidad de unidades: " << unidades << std::endl;
+    cout << "Cantidad de unidades: " << unidades;
 
     cout << "Ingrese el precio: ";
     cin >> precio;
-    cout << "Precio: " << precio << std::endl;
+    cout << "Precio: " << precio;
 
     subtotal = unidades * precio;
-    cout << "Subtotal: " << subtotal << std::endl;
+    cout << "Subtotal: " << subtotal;
 
     return 0;
 }

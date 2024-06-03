@@ -11,7 +11,7 @@ int main() {
         int y2 = 50; 
         y1 = y1 + y2;
     }
-    cout << "x = " << x << ", y1 = " << y1 << endl;
+    cout << "x = " << x << ", y1 = " << y1;
 
     return 0;
 }

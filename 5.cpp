@@ -18,8 +18,8 @@ int main() {
     }
     iva = subtotal * 0.16;
     Total = subtotal - descuento + iva;
-    cout << "El descuento es de: " << descuento << endl;
-    cout << "El total es: " << Total << endl;
+    cout << "El descuento es de: " << descuento;
+    cout << "El total es: " << Total;
 
     return 0;
 }
